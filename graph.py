@@ -28,6 +28,10 @@ class KnowledgeGraphBuilder:
             return G
 
         doc = self.nlp(text)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26f4b0e (Disable spaCy runtime download for Streamlit Cloud compatibility)
         for ent in doc.ents:
             G.add_node(ent.text, label=ent.label_)
 
@@ -41,4 +45,8 @@ class KnowledgeGraphBuilder:
         nodes = G.number_of_nodes()
         edges = G.number_of_edges()
         density = nx.density(G) if nodes > 1 else 0.0
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26f4b0e (Disable spaCy runtime download for Streamlit Cloud compatibility)
         return [nodes, edges, density]
