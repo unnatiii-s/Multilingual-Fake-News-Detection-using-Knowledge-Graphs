@@ -1,23 +1,10 @@
-<<<<<<< HEAD
 streamlit
 torch
 transformers
 spacy
 networkx
 streamlit-agraph
-pandas
-numpy
+scikit-learn
 sentencepiece
-protobuf
-=======
-streamlit
-torch
-transformers
-spacy
-networkx
-streamlit-agraph
-pandas
 numpy
-sentencepiece
-protobuf
->>>>>>> b916bcb10db7c6ea06e249b9569f284f9348ebd0
+pandas
