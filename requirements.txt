@@ -1,10 +1,10 @@
 streamlit
-torch
+torch==2.0.1+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 transformers
-spacy
-networkx
-streamlit-agraph
-scikit-learn
 sentencepiece
 numpy
 pandas
+networkx
+streamlit-agraph
+scikit-learn
